@@ -1,0 +1,56 @@
+# Liberato Advocacia Empresarial: robots.txt
+# Libera o site para mecanismos de busca e para crawlers de IA (GEO/AEO),
+# já que o objetivo do site é ser encontrado tanto no Google quanto por
+# assistentes de IA que respondem perguntas sobre advocacia trabalhista.
+
+User-agent: *
+Allow: /
+
+# Crawlers de busca tradicionais
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawlers usados por ferramentas de IA generativa (GEO / AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://www.liberatoadvocacia.adv.br/sitemap.xml
