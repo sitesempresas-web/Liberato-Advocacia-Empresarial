@@ -53,4 +53,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://www.liberatoadvocacia.adv.br/sitemap.xml
+Sitemap: https://sitesempresas-web.github.io/Liberato-Advocacia-Empresarial/sitemap.xml
